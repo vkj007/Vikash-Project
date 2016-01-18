@@ -7,7 +7,7 @@ Author: Vikash
 */
 define('MSP_HELLOINDIA_DIR', plugin_dir_path(__FILE__));
 define('MSP_HELLOINDIA_URL', plugin_dir_url(__FILE__));
-function msp_helloworld_load(){
+function msp_helloindia_load(){
 		
     if(is_admin())
         require_once(MSP_HELLOINDIA_DIR.'includes/admin.php');
